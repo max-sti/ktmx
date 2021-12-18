@@ -14,7 +14,7 @@
     background-color: #afc7c5;
     color: #555;
     font-size: 125%; /* 20px */
-    padding-bottom: 6em;
+    padding-bottom: 100%;
 }
 
 .row:after {
