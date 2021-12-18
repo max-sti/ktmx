@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 const BUTTONS = [
   "Nochmal!",
   "Noch eins!",
@@ -72,7 +74,7 @@ const generateColor = () => {
     newColor += hexValue;
   }
 
-  document.body.style.backgroundColor = newColor;
+  document.getElementById("mywrapper").style.backgroundColor = newColor;
 };
 
 const stopItNow = () => {

@@ -4,39 +4,11 @@
   color: white;
 }
 
-html {
-  height: 100%;
-}
-
-html,
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  padding: 0;
-  margin: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-.container {
-  height: 110vh;
-  width: 100%;
-  max-width: 1120px;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
-  text-align: center;
-}
-
 .words {
   font-size: 48px;
   line-height: 62px;
-  margin-top: 20%;
   margin-bottom: 60px;
+  text-align: center;
 }
 
 .button {
@@ -47,6 +19,8 @@ p {
   cursor: pointer;
   transition: all ease 0.3s;
   padding: 15px;
+  align-items: center;
+  text-align: center;
 }
 
 .button:hover {
