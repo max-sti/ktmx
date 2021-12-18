@@ -5,11 +5,11 @@ const BUTTONS = [
   "Mehr Liebe 😊",
   "Ist das alles?",
   "JA! NOCHMAL!",
-  "Weiter!"
+  "Weiter!",
   "Ich mag es wenn man mir Komplimente macht, WEITER!",
   "OH! Zu nett. Mehr davon",
   "Einmal noch. :)",
-  "Mach weiter."
+  "Mach weiter.",
   "😍 GO GO GO",
 ];
 
