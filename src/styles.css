@@ -5,7 +5,7 @@
 }
 
 .words {
-  font-size: 48px;
+  font-size: 78px;
   line-height: 62px;
   margin-bottom: 60px;
   text-align: center;
@@ -13,8 +13,8 @@
 
 .button {
   font-weight: 500;
-  font-size: 30px;
-  line-height: 30px;
+  font-size: 50px;
+  line-height: 50px;
   background-color: rgba(220, 220, 235, 0.5);
   cursor: pointer;
   transition: all ease 0.3s;

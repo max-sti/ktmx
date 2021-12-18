@@ -12,22 +12,42 @@ const BUTTONS = [
   "OH! Zu nett. Mehr davon",
   "Einmal noch. :)",
   "Mach weiter.",
-  "😍 GO GO GO",
+  "😍 MÄÄÄÄHRRRRRRR",
 ];
 
 const COMPLIMENTS = [
   "Ti amo!",
   "Du bist schön!",
-  "Ich mag dich!",
-  "Ich mag deine Nase.",
-  "Ich mag deine Augen.",
-  "Du bist wunderschön!",
-  "Ich liebe dich säääääähr!",
+  "Max mag dich! 🥰",
+  "Max mag deine Nase.",
+  "Max mag deine Augen.",
+  "Du bist wunderschön! 😍",
+  "Du hast einen sehr schönen Nachnamen.",
+  "Du bist klug!",
+  "Du bist toll!",
+  "Du bist ein guter Mensch!",
+  "Ohne dich wäre Max sehr einsam.",
+  "Du bist süß.",
+  "Du bist liebevoll.",
+  "Du hast die richtigen Werte.",
+  "Zusammen können Max und du alles schaffen!",
+  "Du schaffst das!",
+  "Es ist schön dich anzusehen. 🤩",
+  "Es ist wunderbar mit dir verheiratet zu sein.",
+  "Du bist der Lieblingsmensch von Max.",
+  "Max ist sehr stolz auf dich.",
+  "Cooler Style! 🧢👗",
+  "Es macht spaß dir zuzuhören.",
+  "Es gibt keinen tolleren Menschen als dich!",
+  "Du bist gut in Mathe. 🧮",
+  "Du bist lustig. 🥸",
 ];
 
 const wordsHTML = document.querySelector(".words");
 const actionButtonHTML = document.querySelector(".button-action");
 const stopButtonHTML = document.querySelector(".button-stop");
+const wipeRight = document.getElementById("wiperightid");
+const wipeLeft = document.getElementById("wipeleftid");
 
 const createRandomIndex = (length) => {
   return Math.floor(Math.random() * length);
@@ -81,6 +101,8 @@ const stopItNow = () => {
   wordsHTML.innerText = "Das wars dann wohl für heute, bis bald! 😘";
   actionButtonHTML.innerText = "NEEEEIN, MEHR!";
   stopButtonHTML.style.display = "none";
+  wipeRight.classList.add('wiper-right--on');
+  wipeLeft.classList.add('wiper-left--on');
 };
 
 const goForTheComplimentAndStyle = () => {
