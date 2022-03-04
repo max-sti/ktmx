@@ -17,13 +17,14 @@ const BUTTONS = [
 
 const COMPLIMENTS = [
   "Ti amo!",
+  "Max liebt dich über alles!",
   "Du bist die schönste Frau auf der Welt!",
   "Max mag dich! 🥰",
   "Max mag deine Nase.",
   "Max mag deine Augen.",
   "Du bist wunderschön! 😍",
   "Du hast einen sehr schönen Nachnamen. 😉",
-  "Du bist die klügste!",
+  "Du bist die Klügste!",
   "Du bist der tollste Mensch!",
   "Du bist ein guter Mensch!",
   "Ohne dich wäre Max sehr einsam.",
@@ -37,12 +38,20 @@ const COMPLIMENTS = [
   "Du bist der Lieblingsmensch von Max.",
   "Max ist sehr stolz auf dich.",
   "Cooler Style! 🧢👗",
-  "Es macht spaß dir zuzuhören.",
+  "Es macht Spaß dir zuzuhören.",
   "Es gibt keinen tolleren Menschen als dich!",
   "Du bist besser als Max in Mathe. 🧮",
   "Du bist lustig. 🥸",
   "Jeder ist neidisch auf deine schönen Wimpern!",
-  "Dein Talent fürs zeichnen ist bemerkenswert."
+  "Dein Talent fürs zeichnen ist bemerkenswert.",
+  "Es gibt keinen besseren Menschen auf der Welt als dich!",
+  "Jeder wäre froh dich zur Frau zu haben.",
+  "Max freut sich auf die Zukunft mit dir.",
+  "Max und du werden noch unendlich viele und schöne Momente miteinander haben.",
+  "Niemand mach leckereres Mousakka als du. 👩‍🍳",
+  "Du bist gut. ♥️",
+  "Du bist die beste Frau auf der ganzen Welt! 🌎",
+  "Es ist wunderbar tolle Dinge mit dir zu entdecken. 🗺️"
 ];
 
 const wordsHTML = document.querySelector(".words");

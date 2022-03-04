@@ -7,6 +7,13 @@
     <link href="src/bus.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
+    <script>
+      function play() {
+        var audio = document.getElementById("audio");
+        audio.play();
+      }
+    </script>
+    <audio id="audio" src="src/horn.m4a"></audio>
     <div class="wrapper" id="mywrapper">
       <br /><br /><br /><br /><br /><br /><br />
       <div class="words"></div>
@@ -71,6 +78,12 @@
             </div>
         </div>
 
+         <div class="campertop">
+            <div class="poptop-2"></div>
+            <div class="poptop-1"></div>
+            <div class="poptop-seal"></div>
+        </div>
+
         <div class="mirrors">
             <div class="mirror-l">
                 <div class="mirror-glass"></div>
@@ -117,7 +130,7 @@
                     <span class="vw-logo__w__leg-r"></span>
                 </span>
             </div>
-            <div class="vw-logo">
+            <div class="vw-logo" onclick="play()">
                 <span class="vw-logo__v"></span>
                 <span class="vw-logo__w">
                     <span class="vw-logo__w__leg-l"></span>
@@ -167,7 +180,6 @@
         </div>
     </div>
     <!-- .bus -->
-
     </div>
     <script src="src/index.js"></script>
   </body>
