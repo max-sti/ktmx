@@ -8,12 +8,17 @@
   </head>
   <body>
     <script>
-      function play() {
-        var audio = document.getElementById("audio");
+      function play(file) {
+        var audio = document.getElementById(file);
         audio.play();
       }
     </script>
-    <audio id="audio" src="src/horn.m4a"></audio>
+    <audio id="horn" src="src/horn.m4a"></audio>
+    <audio id="blinker" src="src/blinker.m4a"></audio>
+    <audio id="bumper" src="src/bumper.m4a"></audio>
+    <audio id="licht" src="src/licht.m4a"></audio>
+    <audio id="motor" src="src/motor.m4a"></audio>
+    <audio id="wischer" src="src/reifen.m4a"></audio>
     <div class="wrapper" id="mywrapper">
       <br /><br /><br /><br /><br /><br /><br />
       <div class="words"></div>
@@ -105,21 +110,21 @@
         </div>
 
         <div class="front-parts">
-            <div class="wiper" id="wiperightid">
+            <div class="wiper" id="wiperightid" onclick="play('wischer')">
                 <div class="wiper-blade"></div>
                 <div class="wiper-arm"></div>
                 <div class="wiper-attachment"></div>
             </div>
-            <div class="wiper wiper-left" id="wipeleftid">
+            <div class="wiper wiper-left" id="wipeleftid" onclick="play('wischer')">
                 <div class="wiper-blade"></div>
                 <div class="wiper-arm"></div>
                 <div class="wiper-attachment"></div>
             </div>
 
-            <div class="directional">
+            <div class="directional" onclick="play('blinker')">
                 <div class="directional--on"></div>
             </div>
-            <div class="directional directional--right">
+            <div class="directional directional--right" onclick="play('blinker')">
                 <div class="directional--on"></div>
             </div>
 
@@ -130,7 +135,7 @@
                     <span class="vw-logo__w__leg-r"></span>
                 </span>
             </div>
-            <div class="vw-logo" onclick="play()">
+            <div class="vw-logo" onclick="play('horn')">
                 <span class="vw-logo__v"></span>
                 <span class="vw-logo__w">
                     <span class="vw-logo__w__leg-l"></span>
@@ -138,18 +143,18 @@
                 </span>
             </div>
 
-            <div class="headlight">
+            <div class="headlight" onclick="play('motor')">
                 <div class="headlight--off">
                     <div class="headlight--off__star"></div>
                 </div>
             </div>
-            <div class="headlight headlight--right">
+            <div class="headlight headlight--right" onclick="play('licht')">
                 <div class="headlight--off headlight--on--right">
                     <div class="headlight--off__star"></div>
                 </div>
             </div>
 
-            <div class="bumper">
+            <div class="bumper" onclick="play('bumper')">
                 <div class="bumper-top"></div>
                 <div class="bumper-straight bs-middle"></div>
                 <div class="bumper-curve bc-1"></div>
