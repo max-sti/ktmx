@@ -47,11 +47,12 @@ const COMPLIMENTS = [
   "Es gibt keinen besseren Menschen auf der Welt als dich!",
   "Max freut sich auf die Zukunft mit dir.",
   "Max und du werden noch unendlich viele und schöne Momente miteinander haben.",
-  "Niemand mach leckereres Mousakka als du. 👩‍🍳",
+  "Niemand macht leckereres Mousakka als du. 👩‍🍳",
   "Du bist gut. ♥️",
   "Du bist die beste Frau auf der ganzen Welt! 🌎",
   "Es ist wunderbar tolle Dinge mit dir zu entdecken. 🗺️",
-  "Max mag es sehr, mit dir zusammen herumzufahren. 🚗"
+  "Max mag es sehr, mit dir zusammen herumzufahren. 🚗",
+  "Du bist die Traumfrau von Max. 👩🏼‍❤️‍💋‍👨🏻"
 ];
 
 const wordsHTML = document.querySelector(".words");
